@@ -46,12 +46,15 @@
     "watch": "pkg-utils watch --strict"
   },
   "dependencies": {
-    "@sanity/incompatible-plugin": "^1.0.4"
+    "@sanity/incompatible-plugin": "^1.0.4",
+    "dompurify": "^3.0.6"
   },
   "devDependencies": {
     "@sanity/pkg-utils": "^3.2.3",
     "@sanity/plugin-kit": "^3.1.10",
+    "@types/dompurify": "^3.0.5",
     "@types/react": "^18.2.37",
+    "@types/styled-components": "^5.1.30",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
     "eslint": "^8.53.0",

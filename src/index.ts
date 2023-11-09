@@ -1,26 +1,26 @@
-import {definePlugin} from 'sanity'
+import { definePlugin } from 'sanity'
+import { inlineSvgType } from './inlineSvgType'
 
-interface MyPluginConfig {
-  /* nothing here yet */
-}
+interface MyPluginConfig {}
 
 /**
  * Usage in `sanity.config.ts` (or .js)
  *
  * ```ts
  * import {defineConfig} from 'sanity'
- * import {myPlugin} from 'sanity-plugin-inline-svg-input'
+ * import {inlineSvgInput} from '@focusreactive/sanity-plugin-inline-svg-input'
  *
  * export default defineConfig({
  *   // ...
- *   plugins: [myPlugin()],
+ *   plugins: [inlineSvgInput()],
  * })
  * ```
  */
-export const myPlugin = definePlugin<MyPluginConfig | void>((config = {}) => {
-  // eslint-disable-next-line no-console
-  console.log('hello from sanity-plugin-inline-svg-input')
+export const inlineSvgInput = definePlugin<MyPluginConfig | void>((config = {}) => {
   return {
     name: 'sanity-plugin-inline-svg-input',
+    schema: {
+      types: [inlineSvgType],
+    },
   }
 })
