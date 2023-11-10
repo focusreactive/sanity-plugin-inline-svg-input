@@ -7,7 +7,15 @@
 ## Installation
 
 ```sh
-npm install sanity-plugin-inline-svg-input
+npm install @focusreactive/sanity-plugin-inline-svg-input
+```
+
+```sh
+yarn add @focusreactive/sanity-plugin-inline-svg-input
+```
+
+```sh
+pnpm add @focusreactive/sanity-plugin-inline-svg-input
 ```
 
 ## Usage
@@ -89,7 +97,7 @@ const IconsList = defineType({
 
 ### Preview component
 
-If you want to use the SVG in your preview component, you can use the `InlineSvgPreviewComponent` component:
+If you want to use the SVG in your preview component, you can use the `InlineSvgPreviewComponent`:
 
 ```tsx
 import { InlineSvgPreviewComponent } from '@focusreactive/sanity-plugin-inline-svg-input'
