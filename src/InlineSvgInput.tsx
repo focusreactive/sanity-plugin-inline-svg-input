@@ -37,6 +37,15 @@ const Container = styled.div`
 `
 
 const SvgWrapper = styled.div`
+  display: flex;
+  max-height: 320px;
+
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   svg {
     max-height: 80%;
     max-width: 80%;
