@@ -1,7 +1,7 @@
 import { definePlugin } from 'sanity'
 import { inlineSvgType } from './inlineSvgType'
 
-interface MyPluginConfig {}
+interface InlineSvgInputConfig {}
 
 /**
  * Usage in `sanity.config.ts` (or .js)
@@ -16,7 +16,7 @@ interface MyPluginConfig {}
  * })
  * ```
  */
-export const inlineSvgInput = definePlugin<MyPluginConfig | void>((config = {}) => {
+export const inlineSvgInput = definePlugin<InlineSvgInputConfig | void>((config = {}) => {
   return {
     name: 'sanity-plugin-inline-svg-input',
     schema: {
