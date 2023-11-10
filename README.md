@@ -1,6 +1,8 @@
 # sanity-plugin-inline-svg-input
 
-> This is a **Sanity Studio v3** plugin.
+**Sanity Studio v3** plugin to upload and preview inline SVGs.
+
+![preview](preview.gif)
 
 ## Installation
 
@@ -10,21 +12,33 @@ npm install sanity-plugin-inline-svg-input
 
 ## Usage
 
-Add it as a plugin in `sanity.config.ts` (or .js):
+1. Add it as a plugin in `sanity.config.ts` (or .js):
 
 ```ts
-import {defineConfig} from 'sanity'
-import {myPlugin} from 'sanity-plugin-inline-svg-input'
+import { defineConfig } from 'sanity'
+import { inlineSvgInput } from '@focusreactive/sanity-plugin-inline-svg-input'
 
 export default defineConfig({
   //...
-  plugins: [myPlugin({})],
+  plugins: [inlineSvgInput()],
 })
 ```
 
-## License
+2. Use the `inlineSvg` type in your schema types:
 
-[MIT](LICENSE) © Eugene Boruhov
+```ts
+// [...]
+{
+  fields: [
+    // [...]
+    {
+      name: 'svgIcon',
+      title: 'SVG Icon',
+      type: 'inlineSvg',
+    },
+  ]
+}
+```
 
 ## Develop & test
 
@@ -33,3 +47,22 @@ with default configuration for build & watch scripts.
 
 See [Testing a plugin in Sanity Studio](https://github.com/sanity-io/plugin-kit#testing-a-plugin-in-sanity-studio)
 on how to run this plugin with hotreload in the studio.
+
+## Credits
+
+This project was created at **FocusReactive** - the expert consultancy for the modern web. We specialize in helping clients beat the competition and accelerate business growth. With a deep expertise in headless CMS, NextJS, and eCommerce, we deliver cutting-edge solutions that prioritize your business goals.
+
+### Our Expertise
+
+- **Content-Centric Websites**: We have a deep experience building extendable, SEO optimized content and marketing websites with advanced CMS integrations and analytics.
+- **Headless eCommerce**: Our next-generation, content-rich, and performant online eCommerce websites come with end-to-end integrations to power your digital business.
+- **Headless CMS Consulting**: We offer multi-channel CMS development, modeling, customization, and support to help you manage your content seamlessly across various platforms.
+- **Web Performance**: Our experts can audit, transform the architecture, and optimize your website to meet the 100 SCORE Core Web Vitals for exceptional web performance.
+
+If you're looking for expertise in headless CMS, NextJS, or eCommerce, get in touch with **FocusReactive** today. Visit our website at [focusreactive.com](https://focusreactive.com/) to learn more about how we can help you accelerate your business growth.
+
+<image src="https://github.com/focusreactive/MVP-NextJS13-New-Features/assets/14885189/7c67e385-3f79-43e3-ba27-bada1ebddf03" width="500px"/>
+
+---
+
+_This project is licensed under the MIT License. © 2023 FocusReactive._
