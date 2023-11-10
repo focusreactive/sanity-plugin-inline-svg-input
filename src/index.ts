@@ -1,7 +1,9 @@
 import { definePlugin } from 'sanity'
 import { inlineSvgType } from './inlineSvgType'
+import { InlineSvgPreviewComponent } from './InlineSvgPreviewComponent'
+import { InlineSvgPreviewItem } from './InlineSvgPreviewItem'
 
-interface InlineSvgInputConfig {}
+export interface InlineSvgInputConfig {}
 
 /**
  * Usage in `sanity.config.ts` (or .js)
@@ -24,3 +26,5 @@ export const inlineSvgInput = definePlugin<InlineSvgInputConfig | void>((config 
     },
   }
 })
+
+export { InlineSvgPreviewComponent, InlineSvgPreviewItem }

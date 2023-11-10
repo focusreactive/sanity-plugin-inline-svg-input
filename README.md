@@ -40,6 +40,69 @@ export default defineConfig({
 }
 ```
 
+## Preview
+
+### List view
+
+![preview](preview-list.jpg)
+
+To preview the SVG in the list view, you can use the `InlineSvgPreviewItem` component:
+
+```tsx
+const IconsListItem = defineType({
+  type: 'object',
+  name: 'iconsListItem',
+  fields: [
+    {
+      type: 'string',
+      name: 'title',
+    },
+    {
+      type: 'string',
+      name: 'text',
+    },
+    {
+      type: 'inlineSvg',
+      name: 'icon',
+    },
+  ],
+  preview: {
+    select: {
+      title: 'title',
+      subtitle: 'text',
+      icon: 'icon',
+    },
+  },
+  components: {
+    preview: (props: PreviewProps<PreviewLayoutKey>) => {
+      return <InlineSvgPreviewItem {...props} />
+    },
+  },
+})
+
+const IconsList = defineType({
+  name: 'iconsList',
+  type: 'array',
+  of: [{ type: 'iconsListItem' }],
+})
+```
+
+### Preview component
+
+If you want to use the SVG in your preview component, you can use the `InlineSvgPreviewComponent` component:
+
+```tsx
+import { InlineSvgPreviewComponent } from '@focusreactive/sanity-plugin-inline-svg-input'
+
+export const PreviewComponent = ({ value }) => {
+  return (
+    //...
+    <InlineSvgPreviewComponent value={value} />
+    //...
+  )
+}
+```
+
 ## Develop & test
 
 This plugin uses [@sanity/plugin-kit](https://github.com/sanity-io/plugin-kit)
