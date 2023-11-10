@@ -83,7 +83,7 @@ const RemoveButton = styled.button`
   }
 `
 
-export const InlineSvgInput = ({ value, schemaType, onChange, focused }: StringInputProps) => {
+export const InlineSvgInput = ({ id, value, schemaType, onChange, focused }: StringInputProps) => {
   const inputRef = useRef<HTMLInputElement>(null)
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
@@ -119,15 +119,15 @@ export const InlineSvgInput = ({ value, schemaType, onChange, focused }: StringI
     <Container>
       <input
         accept=".svg"
-        id="svg-upload"
+        id={id}
         ref={inputRef}
         type="file"
         placeholder={schemaType.placeholder}
         onChange={handleChange}
-        name="svg_upload"
+        name={'inline-svg'}
       />
 
-      {!value && <AddButton htmlFor={'svg-upload'}>Upload SVG</AddButton>}
+      {!value && <AddButton htmlFor={id}>Upload SVG</AddButton>}
 
       {value && (
         <SvgWrapper>
