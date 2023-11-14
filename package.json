@@ -1,5 +1,5 @@
 {
-  "name": "sanity-plugin-inline-svg-input",
+  "name": "@focus-reactive/sanity-plugin-inline-svg-input",
   "version": "0.1.0",
   "description": "Sanity plugin to upload and preview inline SVGs",
   "keywords": [

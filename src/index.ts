@@ -10,7 +10,7 @@ export interface InlineSvgInputConfig {}
  *
  * ```ts
  * import {defineConfig} from 'sanity'
- * import {inlineSvgInput} from '@focusreactive/sanity-plugin-inline-svg-input'
+ * import {inlineSvgInput} from '@focus-reactive/sanity-plugin-inline-svg-input'
  *
  * export default defineConfig({
  *   // ...
