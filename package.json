@@ -76,7 +76,8 @@
   },
   "peerDependencies": {
     "react": "^18",
-    "sanity": "^3"
+    "sanity": "^3",
+    "styled-components": "^5"
   },
   "engines": {
     "node": ">=14"
