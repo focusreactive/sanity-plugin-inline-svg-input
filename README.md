@@ -6,7 +6,7 @@
 - [SVG preview in arrays](#list-view)
 - [Customizable preview component](#preview-component)
 
-![preview](docs/preview.gif)
+![preview](https://github.com/focusreactive/sanity-plugin-inline-svg-input/blob/a5ff486dab928454c6dc8957d2214ab37a438818/docs/preview.gif)
 
 ## Installation
 
@@ -56,7 +56,7 @@ export default defineConfig({
 
 ### List view
 
-![preview](docs/preview-list.jpg)
+![preview](https://github.com/focusreactive/sanity-plugin-inline-svg-input/blob/a5ff486dab928454c6dc8957d2214ab37a438818/docs/preview-list.jpg)
 
 To preview the SVG in the list view, you can use the `InlineSvgPreviewItem` component:
 
