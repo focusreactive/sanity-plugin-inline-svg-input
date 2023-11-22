@@ -2,6 +2,10 @@
 
 **Sanity Studio v3** plugin to upload and preview inline SVGs.
 
+- Safe, sanitizes SVGs with [dompurify](https://github.com/cure53/DOMPurify)
+- [SVG preview in arrays](#list-view)
+- [Customizable preview component](#preview-component)
+
 ![preview](preview.gif)
 
 ## Installation

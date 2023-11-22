@@ -4,7 +4,14 @@
   "description": "Sanity plugin to upload and preview inline SVGs",
   "keywords": [
     "sanity",
-    "sanity-plugin"
+    "sanity-plugin",
+    "svg",
+    "inline-svg",
+    "upload",
+    "custom-input",
+    "svg-field",
+    "svg-input",
+    "custom"
   ],
   "homepage": "https://github.com/focusreactive/sanity-plugin-inline-svg-input#readme",
   "bugs": {
