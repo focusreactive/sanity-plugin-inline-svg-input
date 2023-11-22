@@ -6,7 +6,7 @@
 - [SVG preview in arrays](#list-view)
 - [Customizable preview component](#preview-component)
 
-![preview](preview.gif)
+![preview](docs/preview.gif)
 
 ## Installation
 
@@ -56,7 +56,7 @@ export default defineConfig({
 
 ### List view
 
-![preview](preview-list.jpg)
+![preview](docs/preview-list.jpg)
 
 To preview the SVG in the list view, you can use the `InlineSvgPreviewItem` component:
 
