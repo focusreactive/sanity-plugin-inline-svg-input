@@ -115,6 +115,20 @@ export const PreviewComponent = ({ value }) => {
 }
 ```
 
+To customize the preview component, you can either:
+
+- Pass `className` or `style` props
+- Extend default styles with `styled-components`
+
+```tsx
+import { InlineSvgPreviewComponent } from '@focus-reactive/sanity-plugin-inline-svg-input'
+import styled from 'styled-components'
+
+const StyledInlineSvg = styled(InlineSvgPreviewComponent)`
+  //...
+`
+```
+
 ## Develop & test
 
 This plugin uses [@sanity/plugin-kit](https://github.com/sanity-io/plugin-kit)
