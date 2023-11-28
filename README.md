@@ -61,8 +61,8 @@ The sections below describe how to preview your SVG within arrays, objects or yo
 
 ### Within arrays
 
-Sanity provides a convenient way to preview arrays out of the box, but it only allows the use of the `image` type in `media`.\
-We provide a ready-to-use preview component that mimics the default array preview.
+Sanity offers a convenient way to preview arrays out of the box, but it only allows the use of the `image` type in `media`.
+To provide same functionality for SVGs, we provide a ready-to-use preview component that mimics the default array preview.
 
 ![preview](https://raw.githubusercontent.com/focusreactive/sanity-plugin-inline-svg-input/main/docs/preview-list.jpg)
 
@@ -73,7 +73,7 @@ It accepts the following props:
 - `title` [string] - the title of the item
 - `subtitle` [string] - the subtitle of the item
 
-`iconsList` in the example below is an array of objects with `icon`, `title` and `subtitle` fields.\
+`iconsList` in the example below is an array of objects with `icon`, `title` and `subtitle` fields.
 To use them in preview the same way as the default array preview,
 only what you need is to replace default preview component with `InlineSvgPreviewItem`.
 
@@ -122,7 +122,8 @@ const IconsList = defineType({
 ### Custom preview component
 
 If you need more customization or want to build your own preview component using SVG icons,
-you can use the `InlineSvgPreviewComponent`.\
+you can use the `InlineSvgPreviewComponent`.
+
 `InlineSvgPreviewComponent` is the smallest building block of the plugin the only purpose of which is to sanitize and render SVG.\
 It accepts the following props:
 
@@ -161,8 +162,11 @@ with default configuration for build & watch scripts.
 
 `npm run build` - creates a ready to publish plugin in `/dist` folder.
 
-`npm run link-watch` - creates a symlink from the plugin repo to the local sanity repo and watches for changes.\
- After running this command, you will see the instructions on how to add this plugin to your Sanity Studio in the terminal.
+`npm run link-watch` - creates a symlink from the plugin repo to the local sanity repo and watches for changes.
+After running this command, you will see the instructions on how to add this plugin to your Sanity Studio in the terminal.
+
+`npm run publish` - there is pre-publish script that prepares the plugin for publishing, you don't need to build it manually.
+Please run `npm run publish --dry-run` to make sure that everything is ok before publishing.
 
 See [Testing a plugin in Sanity Studio](https://github.com/sanity-io/plugin-kit#testing-a-plugin-in-sanity-studio)
 for additional information.
