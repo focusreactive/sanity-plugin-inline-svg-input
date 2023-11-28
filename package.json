@@ -40,7 +40,6 @@
   "files": [
     "dist",
     "sanity.json",
-    "src",
     "v2-incompatible.js"
   ],
   "scripts": {
