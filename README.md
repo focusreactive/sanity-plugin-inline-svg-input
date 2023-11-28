@@ -165,8 +165,8 @@ with default configuration for build & watch scripts.
 `npm run link-watch` - creates a symlink from the plugin repo to the local sanity repo and watches for changes.
 After running this command, you will see the instructions on how to add this plugin to your Sanity Studio in the terminal.
 
-`npm run publish` - there is pre-publish script that prepares the plugin for publishing, you don't need to build it manually.
-Please run `npm run publish --dry-run` to make sure that everything is ok before publishing.
+`npm publish` - there is pre-publish script that prepares the plugin for publishing, you don't need to build it manually.
+Please run `npm publish --dry-run` to make sure that everything is ok before publishing.
 
 See [Testing a plugin in Sanity Studio](https://github.com/sanity-io/plugin-kit#testing-a-plugin-in-sanity-studio)
 for additional information.
