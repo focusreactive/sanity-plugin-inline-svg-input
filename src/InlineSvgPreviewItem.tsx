@@ -1,5 +1,6 @@
 import { InlineSvgPreviewComponent } from './InlineSvgPreviewComponent'
 import styled, { css } from 'styled-components'
+import { PreviewLayoutKey, PreviewProps } from 'sanity'
 
 const Container = styled.div`
   display: flex;
@@ -57,10 +58,16 @@ export const InlineSvgPreviewItem = ({
   title,
   subtitle,
 }: {
-  icon?: string
-  title?: string
-  subtitle?: string
-}) => {
+  icon?: string | null
+} & Pick<PreviewProps<PreviewLayoutKey>, 'title' | 'subtitle'>) => {
+  if ((title && typeof title !== 'string') || (subtitle && typeof subtitle !== 'string')) {
+    return (
+      <Container>
+        `InlineSvgPreviewItem` supports only string values for `title` and `subtitle` props.
+      </Container>
+    )
+  }
+
   return (
     <Container>
       {icon ? <Icon value={icon} /> : <IconStub />}
