@@ -1,4 +1,4 @@
-# sanity-plugin-inline-svg-input [![npm version](https://badge.fury.io/js/@focus-reactive%2Fsanity-plugin-inline-svg-input.svg)](https://badge.fury.io/js/@focus-reactive%2Fsanity-plugin-inline-svg-input)
+# sanity-plugin-inline-svg-input [![npm version](https://badge.fury.io/js/@focus-reactive%2Fsanity-plugin-inline-svg-input.svg)](https://badge.fury.io/js/@focus-reactive%2Fsanity-plugin-inline-svg-input) [![Sanity Exchange](https://img.shields.io/badge/sanity-exchange-green)](https://www.sanity.io/plugins/sanity-plugin-inline-svg-input)
 
 **Sanity Studio v3** plugin to upload and preview inline SVGs.
 
