@@ -58,9 +58,10 @@
   "devDependencies": {
     "@sanity/pkg-utils": "^3.2.3",
     "@sanity/plugin-kit": "^3.1.10",
+    "@sanity/ui": "^1.9.3",
     "@types/dompurify": "^3.0.5",
     "@types/react": "^18.2.37",
-    "@types/styled-components": "^5.1.30",
+    "@types/styled-components": "^5.1.32",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
     "eslint": "^8.53.0",
@@ -77,13 +78,14 @@
     "react-is": "^18.2.0",
     "rimraf": "^5.0.5",
     "sanity": "^3.19.2",
-    "styled-components": "^5.3.11",
+    "styled-components": "^6.1.1",
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
     "react": "^18",
     "sanity": "^3",
-    "styled-components": "^5"
+    "styled-components": "^5 || ^6",
+    "@sanity/ui": "^1"
   },
   "engines": {
     "node": ">=14"

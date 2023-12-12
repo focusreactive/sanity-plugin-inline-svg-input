@@ -134,9 +134,9 @@ import { InlineSvgPreviewComponent } from '@focus-reactive/sanity-plugin-inline-
 
 export const PreviewComponent = ({ value }) => {
   return (
-    //...
+    // ...
     <InlineSvgPreviewComponent value={value} />
-    //...
+    // ...
   )
 }
 ```
@@ -151,7 +151,7 @@ import { InlineSvgPreviewComponent } from '@focus-reactive/sanity-plugin-inline-
 import styled from 'styled-components'
 
 const StyledInlineSvg = styled(InlineSvgPreviewComponent)`
-  //...
+  // ...
 `
 ```
 
