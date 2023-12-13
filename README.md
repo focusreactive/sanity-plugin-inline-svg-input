@@ -1,4 +1,4 @@
-# sanity-plugin-inline-svg-input [![npm version](https://badge.fury.io/js/@focus-reactive%2Fsanity-plugin-inline-svg-input.svg)](https://badge.fury.io/js/@focus-reactive%2Fsanity-plugin-inline-svg-input) [![Sanity Exchange](https://img.shields.io/badge/sanity-exchange-green)](https://www.sanity.io/plugins/sanity-plugin-inline-svg-input)
+# Sanity Plugin Inline SVG Input [![npm version](https://badge.fury.io/js/@focus-reactive%2Fsanity-plugin-inline-svg-input.svg)](https://badge.fury.io/js/@focus-reactive%2Fsanity-plugin-inline-svg-input) [![Sanity Exchange](https://img.shields.io/badge/sanity-exchange-green)](https://www.sanity.io/plugins/sanity-plugin-inline-svg-input)
 
 **Sanity Studio v3** plugin to upload and preview inline SVGs.
 
@@ -173,7 +173,7 @@ for additional information.
 
 ## Credits
 
-This project was created at **FocusReactive** - the expert consultancy for the modern web. We specialize in helping clients beat the competition and accelerate business growth. With a deep expertise in headless CMS, NextJS, and eCommerce, we deliver cutting-edge solutions that prioritize your business goals.
+This project was created at **FocusReactive** - the [Sanity Partner Agency](https://www.sanity.io/agency-partners/focusreactive). We specialize in helping clients beat the competition and accelerate business growth. With a deep expertise in headless CMS, NextJS, and eCommerce, we deliver cutting-edge solutions that prioritize your business goals.
 
 ### Our Expertise
 
@@ -184,8 +184,7 @@ This project was created at **FocusReactive** - the expert consultancy for the m
 
 If you're looking for expertise in headless CMS, NextJS, or eCommerce, get in touch with **FocusReactive** today. Visit our website at [focusreactive.com](https://focusreactive.com/) to learn more about how we can help you accelerate your business growth.
 
-<image src="https://github.com/focusreactive/MVP-NextJS13-New-Features/assets/14885189/7c67e385-3f79-43e3-ba27-bada1ebddf03" width="500px"/>
-
+[![FocusReactive](docs/FR-logo-long.png)](https://focusreactive.com/sanity-expert-agency/)
 ---
 
 _This project is licensed under the MIT License. © 2023 FocusReactive._

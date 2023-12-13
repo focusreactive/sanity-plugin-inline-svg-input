@@ -1,6 +1,6 @@
 {
   "name": "@focus-reactive/sanity-plugin-inline-svg-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sanity plugin to upload and preview inline SVGs",
   "keywords": [
     "sanity",
@@ -13,7 +13,7 @@
     "svg-input",
     "custom"
   ],
-  "homepage": "https://github.com/focusreactive/sanity-plugin-inline-svg-input#readme",
+  "homepage": "https://www.sanity.io/plugins/sanity-plugin-inline-svg-input",
   "bugs": {
     "url": "https://github.com/focusreactive/sanity-plugin-inline-svg-input/issues"
   },
