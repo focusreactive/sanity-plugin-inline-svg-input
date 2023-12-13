@@ -184,7 +184,7 @@ This project was created at **FocusReactive** - the [Sanity Partner Agency](http
 
 If you're looking for expertise in headless CMS, NextJS, or eCommerce, get in touch with **FocusReactive** today. Visit our website at [focusreactive.com](https://focusreactive.com/) to learn more about how we can help you accelerate your business growth.
 
-[![FocusReactive](docs/FR-logo-long.png)](https://focusreactive.com/sanity-expert-agency/)
+[![FocusReactive](https://raw.githubusercontent.com/focusreactive/sanity-plugin-inline-svg-input/main/docs/FR-logo-long.png)](https://focusreactive.com/sanity-expert-agency/)
 ---
 
 _This project is licensed under the MIT License. © 2023 FocusReactive._
