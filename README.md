@@ -55,6 +55,17 @@ export default defineConfig({
 
 That's it! Now you can use this field to upload SVG images and see the preview in your Sanity Studio.
 
+If you use [`@sanity-typed`](https://github.com/saiichihashimoto/sanity-typed/tree/main/packages/types#sanity-typedtypes), import `inlineSvgInputTyped` instead to get the correct types in your documents:
+
+```js
+import { inlineSvgInputTyped } from 'sanity-plugin-country-state-select'
+
+export default defineConfig({
+  // ...
+  plugins: [inlineSvgInputTyped()],
+})
+```
+
 ## Preview
 
 The sections below describe how to preview your SVG within arrays, objects or your own custom preview component.
@@ -184,7 +195,6 @@ This project was created at **FocusReactive** - the [Sanity Partner Agency](http
 
 If you're looking for expertise in headless CMS, NextJS, or eCommerce, get in touch with **FocusReactive** today. Visit our website at [focusreactive.com](https://focusreactive.com/) to learn more about how we can help you accelerate your business growth.
 
-[![FocusReactive](https://raw.githubusercontent.com/focusreactive/sanity-plugin-inline-svg-input/main/docs/FR-logo-long.png)](https://focusreactive.com/sanity-expert-agency/)
----
+## [![FocusReactive](https://raw.githubusercontent.com/focusreactive/sanity-plugin-inline-svg-input/main/docs/FR-logo-long.png)](https://focusreactive.com/sanity-expert-agency/)
 
 _This project is licensed under the MIT License. © 2023 FocusReactive._

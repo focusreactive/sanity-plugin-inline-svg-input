@@ -1,4 +1,4 @@
-import { defineType } from 'sanity'
+import { defineType } from '@sanity-typed/types'
 import { InlineSvgInput } from './InlineSvgInput'
 
 export const inlineSvgType = defineType({

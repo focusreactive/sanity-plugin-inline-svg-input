@@ -52,6 +52,8 @@
     "watch": "pkg-utils watch --strict"
   },
   "dependencies": {
+    "@portabletext/types": "^2.0.8",
+    "@sanity-typed/types": "^6.1.2",
     "@sanity/incompatible-plugin": "^1.0.4",
     "dompurify": "^3.0.6"
   },
@@ -82,10 +84,10 @@
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
+    "@sanity/ui": "^1",
     "react": "^18",
     "sanity": "^3",
-    "styled-components": "^5 || ^6",
-    "@sanity/ui": "^1"
+    "styled-components": "^5 || ^6"
   },
   "engines": {
     "node": ">=14"
