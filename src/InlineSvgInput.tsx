@@ -2,7 +2,7 @@ import { ChangeEvent, useEffect, useRef } from 'react'
 import { set, StringInputProps, unset } from 'sanity'
 import styled, { css } from 'styled-components'
 import DOMPurify from 'dompurify'
-import { studioTheme, ThemeProvider, usePrefersDark, useTheme } from '@sanity/ui'
+import { ThemeProvider, usePrefersDark, useTheme } from '@sanity/ui'
 
 const Container = styled.div`
   --svg-bg-color: rgba(23, 23, 23, 0.05);
@@ -22,13 +22,11 @@ const Container = styled.div`
   align-items: center;
   min-height: 250px;
   border: 1px solid var(--card-border-color);
-  border-radius: 1px;
+  border-radius: 3px;
   position: relative;
 
   &:focus-within {
-    box-shadow:
-      0 0 0 2px var(--card-bg-color),
-      0 0 0 4px var(--card-focus-ring-color);
+    border-color: var(--card-focus-ring-color);
   }
 
   &.dark {
@@ -144,7 +142,7 @@ export const InlineSvgInput = ({ id, value, schemaType, onChange, focused }: Str
 
   return (
     <Container className={isDarkMode ? 'dark' : 'light'}>
-      <ThemeProvider scheme={scheme} theme={studioTheme}>
+      <ThemeProvider scheme={scheme}>
         <input
           accept=".svg"
           id={id}
