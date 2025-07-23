@@ -74,7 +74,7 @@ jobs:
           #   'Please provide a thorough code review focusing on our coding standards and best practices.' }}
 
           # Optional: Add specific tools for running tests or linting
-          allowed_tools: 'Bash(pnpm install),Bash(pnpm run build),Bash(pnpm run lint)'
+          allowed_tools: 'Bash(pnpm install),Bash(pnpm run build),Bash(pnpm run lint),Bash(npm audit)'
 
           # Optional: Skip review for certain conditions
           # if: |
