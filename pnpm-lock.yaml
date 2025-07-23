@@ -87,6 +87,9 @@ importers:
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
+      yalc:
+        specifier: 1.0.0-pre.53
+        version: 1.0.0-pre.53
 
 packages:
 
@@ -2831,6 +2834,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   glob@8.1.0:
     resolution: {integrity: sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==}
