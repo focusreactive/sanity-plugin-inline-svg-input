@@ -15,6 +15,9 @@ importers:
         specifier: ^3.0.9
         version: 3.0.9
     devDependencies:
+      '@sanity/browserslist-config':
+        specifier: ^1.0.5
+        version: 1.0.5
       '@sanity/pkg-utils':
         specifier: ^4.2.11
         version: 4.2.11(@types/babel__core@7.20.4)(@types/node@20.9.0)(typescript@5.3.3)
@@ -1512,8 +1515,8 @@ packages:
   '@sanity/block-tools@3.19.2':
     resolution: {integrity: sha512-LYDBl5gqIJe/nKvIU3j9Y2B2Yfaj2RvnTDd+YfTMD3AS0fCvaXmxZ8W15ME4IrzDDkYpkhi5VTq/2pwpuTPSOg==}
 
-  '@sanity/browserslist-config@1.0.3':
-    resolution: {integrity: sha512-UkJuiTyROgPcxbvpHYyXwr+T88Np4eLzu3h05gMgeZ2hv3EM7g/4VMyng5HuA1JdPQPEdq8bmmfQDR+u4KC+TA==}
+  '@sanity/browserslist-config@1.0.5':
+    resolution: {integrity: sha512-so+/UtCge8t1jq509hH0otbbptRz0zM/Aa0dh5MhMD7HGT6n2igWIL2VWH/9QR9e77Jn3dJsjz23mW1WCxT+sg==}
 
   '@sanity/cli@3.19.2':
     resolution: {integrity: sha512-5OURtBm6GAbTeAkGFw7rtxLXHDN/PTT27LR2jcDW22ZVWqq1x81mA9EgFaKaXXFbDC9NWBh3onyKYLYs125o4g==}
@@ -6380,7 +6383,7 @@ snapshots:
       get-random-values-esm: 1.0.0
       lodash: 4.17.21
 
-  '@sanity/browserslist-config@1.0.3': {}
+  '@sanity/browserslist-config@1.0.5': {}
 
   '@sanity/cli@3.19.2':
     dependencies:
@@ -6552,7 +6555,7 @@ snapshots:
       '@rollup/plugin-node-resolve': 15.2.3(rollup@4.12.0)
       '@rollup/plugin-replace': 5.0.5(rollup@4.12.0)
       '@rollup/plugin-terser': 0.4.4(rollup@4.12.0)
-      '@sanity/browserslist-config': 1.0.3
+      '@sanity/browserslist-config': 1.0.5
       browserslist: 4.23.0
       cac: 6.7.14
       chalk: 4.1.2

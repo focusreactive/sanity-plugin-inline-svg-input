@@ -23,12 +23,14 @@
   },
   "license": "MIT",
   "author": "Eugene Boruhov <eugene@focusreactive.com>",
+  "sideEffects": false,
+  "browserslist": "extends @sanity/browserslist-config",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "source": "./src/index.ts",
-      "require": "./dist/index.js",
       "import": "./dist/index.esm.js",
+      "require": "./dist/index.js",
       "default": "./dist/index.esm.js"
     },
     "./package.json": "./package.json"
@@ -56,6 +58,7 @@
     "dompurify": "^3.0.9"
   },
   "devDependencies": {
+    "@sanity/browserslist-config": "^1.0.5",
     "@sanity/pkg-utils": "^4.2.11",
     "@sanity/plugin-kit": "^3.1.10",
     "@sanity/ui": "^2.0.7",
