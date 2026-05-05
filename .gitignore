@@ -58,3 +58,6 @@ yalc.lock
 
 # Compiled plugin
 dist
+
+# TypeScript incremental build cache
+tsconfig.tsbuildinfo
